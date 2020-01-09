@@ -17,6 +17,9 @@
 -   Uses data from ./final_gdp_pct.csv to calculate probability of recession for 2019 Q4 to 2021 Q2.
 -   Saves predicted recession probabilities data to ./final_rec_prob.csv
 
-#### student loans regression.ipynb (Work In Progress)
+#### student loans regression.ipynb
 
--   fits a logistic curve to 1993-2008 data, and then 2009-2020 data.
+-   fits a logistic curve to 1993-2008 data, and then 2009-2019 data.
+-   Uses Eulers Method to predict student loans over gdp for 2020.
+-   Conducts correlation and exponential regression between 2008 student loan over gdp and recession probabilities, and then 2020 student loan over gdp and recession probabilities.
+-   Uses the 2020 exponential regression model to predict recession probabilities for 2020 if either Elizabeth Warren's or Pete Buttigieg's student loan debt forgiveness policies are applied.
